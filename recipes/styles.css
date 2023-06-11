@@ -29,24 +29,3 @@ color: black;
 text-decoration: underline;
 font-weight: 200;
 }
-
-img{
-    max-width: 200px;
-    max-height: 150px;
-   
-}
-
-a{
-    color: black;
-    text-decoration: solid;
-    font-weight: bolder;
-}
-
-.sauces{
-    background-color: red;
-    vertical-align: top;
-    display: inline-block;
-    text-align: justify;
-    width: 200px;
-    
-}
