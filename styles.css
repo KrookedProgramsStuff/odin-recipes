@@ -1,0 +1,50 @@
+@media only screen and (max-width:600px){
+    body {
+        background: linear-gradient(
+            176deg,
+            beige,
+            orange
+        );
+    }
+}
+
+/* {
+    border: 1px solid black;
+}*/
+
+html {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+background: linear-gradient(
+    176deg,
+    #A7E99C 30%,
+    #8FE381 40%,
+    #77DD66 30%
+);
+color: black;
+text-decoration: underline;
+font-weight: 200;
+}
+
+img{
+    max-width: 200px;
+    max-height: 150px;
+   
+}
+
+a{
+    color: black;
+    text-decoration: solid;
+    font-weight: bolder;
+}
+
+div.sauces{
+    vertical-align: top;
+    display: inline-block;
+    text-align: justify;
+    width: 200px;
+}
