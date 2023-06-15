@@ -2,20 +2,91 @@
     border: 1px solid black;
 }*/
 
-html {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
+
+
+
+
+#mustard{
+    background: linear-gradient(
+        176deg,
+        #dced1d 30%,
+        #c7d71a 40%,
+        #acba15 30%
+    );
+    color: black;
+    text-decoration: underline;
+    font-weight: 200;
+    }
+
+#spaghetti{
+        background: linear-gradient(
+            176deg,
+            #c12020 30%,
+            #ab1c1c 40%,
+            #8f1818 30%
+        );
+        color: black;
+        text-decoration: underline;
+        font-weight: 200;
+        }
+
+#bbq{
+            background: linear-gradient(
+                176deg,
+                #422a01 30%,
+                #362200 40%,
+                #301e00 30%
+            );
+            color: black;
+            text-decoration: underline;
+            font-weight: 200;
+            }
+#dgss{
+            background: linear-gradient(
+                176deg,
+                #f48d07 30%,
+                #de8107 40%,
+                #c67409 30%
+            );
+            color: black;
+            text-decoration: underline;
+            font-weight: 200;
+            }
+
+
+
+body ul{
+        list-style-type: none;
+        }
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-body{
-background: linear-gradient(
-    176deg,
-    #A7E99C 30%,
-    #8FE381 40%,
-    #77DD66 30%
-);
-color: black;
-text-decoration: underline;
-font-weight: 200;
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+ul li{
+    text-align: center;
+    padding-right: 5px;
+}
+
+img{
+    display: flex;
+    max-width: 50%;
+    max-height: auto;
+    justify-items: center;
+}
+
+#spaghetti li{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
 }
