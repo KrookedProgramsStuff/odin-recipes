@@ -5,7 +5,14 @@
 
 
 
-
+#mustard,
+#spaghetti,
+#bbq,
+#dgss{
+    color: black;
+    text-decoration: underline;
+    font-weight: 200;
+}
 #mustard{
     background: linear-gradient(
         176deg,
@@ -13,9 +20,7 @@
         #c7d71a 40%,
         #acba15 30%
     );
-    color: black;
-    text-decoration: underline;
-    font-weight: 200;
+    
     }
 
 #spaghetti{
@@ -25,9 +30,7 @@
             #ab1c1c 40%,
             #8f1818 30%
         );
-        color: black;
-        text-decoration: underline;
-        font-weight: 200;
+       
         }
 
 #bbq{
@@ -37,9 +40,7 @@
                 #362200 40%,
                 #301e00 30%
             );
-            color: black;
-            text-decoration: underline;
-            font-weight: 200;
+            
             }
 #dgss{
             background: linear-gradient(
@@ -48,9 +49,7 @@
                 #de8107 40%,
                 #c67409 30%
             );
-            color: black;
-            text-decoration: underline;
-            font-weight: 200;
+            
             }
 
 

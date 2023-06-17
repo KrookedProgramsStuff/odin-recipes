@@ -6,8 +6,7 @@ html {
     box-sizing: border-box;
     width: 100%;
    /* border: solid red 10px; */
-    display: flex;
-    justify-content: center;
+
     
 }
 
@@ -23,6 +22,7 @@ padding: 10px;
 }
 body ul{
     list-style-type: none;
+    
 }
 .title {
     color: black;
@@ -30,6 +30,8 @@ body ul{
     font-weight: bolder;
     text-align: center;
 }
+
+
 
 p {
     text-align: center;
@@ -39,19 +41,30 @@ p {
     text-shadow: -1px 1px black;
 }
 div.img {
-padding: 20px;
+    padding: 20px;
+    }
+
+
+.sauces, .rubs{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black; 
+    text-align: center;
+    margin-right: auto;
 }
 
 img{
-    max-width: 200px;
-    max-height: auto;
-    margin: 10px;
-    padding: 1px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    justify-self: center;
-   
+    justify-content: space-evenly;
+    max-width: 200px;
+    max-height: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+    padding: 1px;
+    border: 1px solid black;   
 }
 
 a{
@@ -61,23 +74,37 @@ a{
     margin-top: 5px;
 }
 
-.sauces, .rubs{
+ 
+
+  ul {
     display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 50%;
-    border: 2px solid black; 
-    align-items: center;
-    justify-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 50px;
+  }
+  
+  li {
+    display: inline-block;
+    flex-grow: 1;
     text-align: center;
-    padding-right: 40px;
-}
-
-li{
+  }
+  
+  ul.sauces {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul.sauces li {
+    text-align: center;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  div.sauces {
+    display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-.sauce-title{
-    margin-top: 10px;
-    
-}
+  }
