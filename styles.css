@@ -45,7 +45,7 @@ div.img {
     }
 
 
-.sauces, .rubs{
+.sauces, .rubs, .bread{
     display: flex;
     flex: 1;
     justify-content: flex-start;
@@ -89,21 +89,21 @@ a{
     text-align: center;
   }
   
-  ul.sauces {
+  ul.sauces, ul.bread, ul.rubs {
     display: flex;
     justify-content: space-evenly;
     padding: 0;
     margin: 0;
   }
   
-  ul.sauces li {
+  ul.sauces li, ul.bread li, ul.rubs li{
     text-align: center;
     flex-grow: 1;
     margin: 0;
     padding: 0;
   }
   
-  div.sauces {
+  div.sauces, div.bread, div.rubs{
     display: flex;
     justify-content: center;
     align-items: center;
